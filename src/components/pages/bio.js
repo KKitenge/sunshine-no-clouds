@@ -1,5 +1,6 @@
 import React from "react";
 import '../assets/css/style.css';
+import Footer from '../Footer'
 
 function Bio() {
     return (
