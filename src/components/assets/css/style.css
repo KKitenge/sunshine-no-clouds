@@ -1,0 +1,36 @@
+body {
+    background: #151d30;
+    font-size: 12px;
+    font-family: Palatino, "URW Palladio Larial", "monospace", sans-serif;
+}
+
+a {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+
+header {
+    padding: 35px 0px 35px 0px;
+    color: #fff;
+}
+
+footer {
+    margin: 20px 0 0px 0;
+}
+
+footer p {
+    font-size: 15px;
+    color: #fefefe;
+    padding: 5px 0;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color: #fefefe;
+}
