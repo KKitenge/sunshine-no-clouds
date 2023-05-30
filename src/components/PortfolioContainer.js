@@ -1,3 +1,4 @@
+import './components/assets/css/style.css';
 import React, { useState } from 'react';
 import BucketForm from './BucketForm';
 import Bucket from './Bucket';

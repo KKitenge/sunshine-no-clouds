@@ -1,4 +1,4 @@
-import './App.css';
+import './components/assets/css/style.css';
 import React from 'react';
 import PortfolioContainer from './components/PortfolioContainer';
 
