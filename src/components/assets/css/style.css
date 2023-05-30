@@ -1,7 +1,9 @@
 body {
     background: #6784cc;
-    font-size: 12px;
+    font-size: 18px;
     font-family: Palatino, "URW Palladio Larial", "monospace", sans-serif;
+    max-width: 500px;
+    margin: auto;
 }
 
 a {
@@ -18,9 +20,12 @@ a:hover {
 header {
     padding: 35px 0px 35px 0px;
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
 }
 
+h1 {
+    font-weight:bold;
+}
 
 footer {
     margin: 20px 0 0px 0;
