@@ -9,6 +9,7 @@ body {
 a {
     color: #fefefe;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 a:hover {
@@ -24,21 +25,17 @@ header {
 }
 
 h1 {
-    font-weight:bold;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+    text-align: center;
 }
 
 footer {
     margin: 20px 0 0px 0;
-    position: relative;
-}
-
-footer p {
-    font-size: 15px;
-    color: #fefefe;
-    padding: 5px 0;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-    color: #fefefe;
+    /* position: fixed; */
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(103,132,204,1) 49%, rgba(103,132,204,1) 100%); */
+    text-align: center;
 }

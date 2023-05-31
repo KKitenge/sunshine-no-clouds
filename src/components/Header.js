@@ -8,7 +8,7 @@ function Header({ currentPage, handlePageChange }) {
       <ul className="nav nav-tabs" id="navbar">
         <li className="nav-item">
           <a
-            href="#home"
+            href="#"
             onClick={() => handlePageChange("Home")}
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
           >
