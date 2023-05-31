@@ -2,14 +2,13 @@ import './assets/css/style.css';
 import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Bio from './pages/bio';
-import Contact from './pages/contact';
+import Bio from './pages/Bio';
+import Contact from './pages/Contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Bio');
-  console.log(currentPage);
 
   const renderPage = () => {
     if(currentPage === 'Bio') {

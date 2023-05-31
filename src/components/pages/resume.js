@@ -2,26 +2,27 @@ import React from "react";
 import '../assets/css/style.css';
 
 function Resume() {
-  return (
-    <div className='resume'>
-      <h1>KGK</h1>
-      <h2>Frontend Developer</h2>
-
-      <h3>Education</h3>
-      <ul>
-        <li>Web Development Online Course</li>
-      </ul>
-
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Responsive Web Design</li>
-      </ul>
-    </div>
-  );
+    return (
+        <div class="card">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Resume</h5>
+                <p class="card-text">
+                <h3>kgkitenge@gmail.com</h3>
+                    <ul>
+                        <h3>Education</h3>
+                        <li>Web Development Online Course - UC Berkeley</li>
+                        
+                        <h3>Skills</h3>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>MySql</li>
+                        </ul></p>
+            </div>
+        </div>
+    );
 }
 
 export default Resume;

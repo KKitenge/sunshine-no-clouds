@@ -1,20 +1,10 @@
 import React from "react";
 import "./assets/css/style.css";
-// import Navbar from "./Navbar";
 
 function Header({ currentPage, handlePageChange }) {
   return (
     <div>
       <ul className="nav nav-tabs" id="navbar">
-        {/* <li className="nav-item">
-          <a
-            href="#"
-            onClick={() => handlePageChange("Home")}
-            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-          >
-            Home
-          </a>
-        </li> */}
         <li className="nav-item">
           <a
             href="#bio"
@@ -35,7 +25,7 @@ function Header({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
-            href="#portfolio"
+            href="#resume"
             onClick={() => handlePageChange("Resume")}
             className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
           >
