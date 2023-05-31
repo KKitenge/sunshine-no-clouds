@@ -1,5 +1,5 @@
-// import React from "react";
-// import "../assets/css/style.css";
+import React, { useState } from "react";
+import "../assets/css/style.css";
 
 // function Contact() {
 //     const [submitted, setSubmitted] = useState(false);
@@ -85,25 +85,22 @@
 // export default Contact;
 
 
-import React, { useState } from "react";
-import "../assets/css/style.css";
-
 function Contact() {
     const [submitted, setSubmitted] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
-        const firstName = formData.get('first-name');
-        const lastName = formData.get('last-name');
-        const email = formData.get('email');
-        const message = formData.get('message');
+        const firstName = formData.get("first-name");
+        const lastName = formData.get("last-name");
+        const email = formData.get("email");
+        const message = formData.get("message");
 
         setSubmitted(true);
     };
 
     return (
-        <form id="contact-form" action="/submit-form" method="post">
+        <form id="contact-form" onSubmit={handleSubmit}>
             <div className="mb-3">
                 <label htmlFor="first-name" className="form-label">
                     First Name
@@ -165,7 +162,9 @@ function Contact() {
             <button type="submit" className="btn btn-primary">
                 Submit
             </button>
-            {submitted && <div className="confirmation-message">Thank you for your submission!</div>}
+            {submitted && (
+                <div className="confirmation-message">Thank you for your submission!</div>
+            )}
         </form>
     );
 }
