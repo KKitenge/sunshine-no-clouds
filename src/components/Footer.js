@@ -34,10 +34,10 @@ function Footer() {
         <footer className="footer">
             <div className="container text-center">
             <a href="https://github.com/KKitenge"><i class="fa-brands fa-github fa-lg"></i></a>
-            <a href="https://www.facebook.com"> <i class="fa-brands fa-facebook fa-lg"></i></a>
-            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="mailto: kgkitenge@gmail.com?subject=Feedback"><i class="fa-sharp fa-solid fa-envelope fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/kakazi-kitenge-1b00b226b/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
             </div>
-            <div className="text">© 2023 KGK</div>
+            <div className="text">2023 KGK</div>
         </footer>
     );
 }

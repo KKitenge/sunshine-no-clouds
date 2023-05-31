@@ -12,8 +12,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: medium;
 }
 
+.card-body button {
+    position: absolute;
+    bottom: 5px; 
+  }
 
 .form-control, .form-label, .btn-primary {
     max-width: 400px;
