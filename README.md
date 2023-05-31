@@ -20,6 +20,7 @@ A portfolio created using React.
 * [Bootstrap](https://getbootstrap.com/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Looka](https://looka.com/)
+* [FontAwesome](https://fontawesome.com/)
 
  <br>
 
