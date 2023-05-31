@@ -6,7 +6,7 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <div>
       <ul className="nav nav-tabs" id="navbar">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a
             href="#"
             onClick={() => handlePageChange("Home")}
@@ -14,7 +14,7 @@ function Header({ currentPage, handlePageChange }) {
           >
             Home
           </a>
-        </li>
+        </li> */}
         <li className="nav-item">
           <a
             href="#bio"
@@ -31,6 +31,15 @@ function Header({ currentPage, handlePageChange }) {
             className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
           >
             Portfolio
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#portfolio"
+            onClick={() => handlePageChange("Resume")}
+            className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+          >
+            Resume
           </a>
         </li>
         <li className="nav-item">

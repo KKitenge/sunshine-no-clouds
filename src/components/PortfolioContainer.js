@@ -2,9 +2,9 @@ import './assets/css/style.css';
 import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Bio from './pages/Bio';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
+import Bio from './pages/bio';
+import Contact from './pages/contact';
+import Portfolio from './pages/portfolio';
 import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
