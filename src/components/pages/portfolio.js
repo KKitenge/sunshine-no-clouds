@@ -50,7 +50,7 @@ function Portfolio() {
                     <div className="card-body">
                         <h5 className="card-title">iConnect</h5>
                         <p className="card-text">
-                            Progressive web text editor that allows users to write without limitation. Access without boundaries, only productivity.
+                            Progressive web text editor that allows users to write without limitation. Access and no boundaries.
                         </p>
                         <button onClick={() => window.location.href = 'https://i-connect.herokuapp.com/'} className="btn btn-primary">Visit Site</button>
                     </div>

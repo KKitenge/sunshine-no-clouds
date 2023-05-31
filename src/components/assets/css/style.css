@@ -19,7 +19,9 @@ body {
 
 .card-body button {
     position: absolute;
-    bottom: 5px; 
+    bottom: 5px;
+    padding: 5px 10px;
+    font-size: 12px; 
  }
 
 .form-control, .form-label, .btn-primary {
